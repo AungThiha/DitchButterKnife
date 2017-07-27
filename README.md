@@ -16,4 +16,5 @@ For some reasons, you might want to ditch ButterKnife but you feel like it's a l
 
 ### What doesn't work
 * If a java class file has one or more inner classes, you will have some minor errors that you need to fix manually
+* If you write @BindView statement in two lines, this won't work
 * This script doesn't support OnClick binding
